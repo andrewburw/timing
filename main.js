@@ -330,7 +330,7 @@
 	        dataDep.length = 0
 
 	    },
-	    //**************************************************************
+	    //******************************************************************
 	    round: function(number, precision) {
 	        var shift = function(number, precision, reverseShift) {
 	            if (reverseShift) {
