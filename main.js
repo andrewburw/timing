@@ -267,7 +267,7 @@
 	        let night = "night";
 	        let allDayzz = dateStack.daysInMonth();
 
-	        $("#body").append("<tr class=\"deleteElements\" style=\"border-top: 2px solid #d2d2d2;\" id=" + dday + name + "><th  scope=\"row\"  rowspan=\"2\"  >" + name + "</th><td>Dienas</td></tr><tr id=" + ddnight + name + "><td>Nakts</td></tr>");
+	        $("#body").append("<tr class=\"deleteElements\" style=\"border-top: 2px solid #d2d2d2;\" id=" + dday + name + "><th  scope=\"row\"  rowspan=\"2\"  >" + name + "</th><td>Day</td></tr><tr id=" + ddnight + name + "><td>Night</td></tr>");
 
 	        for (i = 0; i < allDayzz.length; i++) {
 	            let day2 = i < 9 ? "classDay0" + (i + 1) : "classDay" + (i + 1);
